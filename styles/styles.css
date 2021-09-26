@@ -9,7 +9,11 @@
 	width: 100%;
 	margin: 0 auto; /*საიტის ცენტრი რომ ეკავოს*/
 	position: relative;
-}
+/*	background-image: url('../images/backgroundmain.png'); არ მომეწონა ესე
+	height: 900px;
+	background-position: center, center;
+	background-size: cover;*/
+}	
 .background{
 	width: 100%;
 
