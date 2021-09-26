@@ -14,12 +14,6 @@
 	margin: 0 auto;
 }
 
-.object img{
-	position: absolute;
-	max-width: 260px;
-	width: 100%;
-}
-
 .blue-object{
 	top: 59%;
 	right: -10%;
