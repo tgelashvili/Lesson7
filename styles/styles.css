@@ -1,25 +1,110 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	width: 100%;
 }
-.container{
+.container {
 	max-width: 1950px;
 	width: 100%;
 	margin: 0 auto; /*საიტის ცენტრი რომ ეკავოს*/
 	position: relative;
+}	
+.background {
+	margin: 0 auto;
 }
-.background{
-	width: 100%;
-
-
-}
-.background img{
-
-}
-
-.object img{
+.blue-object {
 	position: absolute;
-	bottom: 20px;
+	background-image: url("../images/blue car.png");
+	width: 320px;
+	height: 180px;
+	top: 50%;
+	right: -10%;
+	animation-name: blueMove;
+	animation-duration: 10s;
+	animation-delay: 0.1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-fill-mode: backwards;
+	animation-direction: normal;
 }
+@keyframes blueMove {
+	0%{ 
+		top: 50%;
+		left: 100%;
+	}
+	/*არ დამჭირდა მაგრამ იყოს აქ
+	50%{ 
+		top: 50%;
+		left: 83%;
+	}
+	60%{
+		top: 50%;
+		left: 66%;
+	}
+	80%{
+		top: 50%;
+		left: 49%;
+	}
+	90%{
+		top: 50%;
+		left: 32%;
+	}*/
+	100%{ 
+		top: 50%;
+		left: -50%;
+	}
+}
+.orange-object{
+	position: absolute;
+	background-image: url("../images/orange car.png");
+	width: 320px;
+	height: 280px;
+	top: 50%;
+	right: -10%;
+	animation-name: orangeMove;
+	animation-duration: 8s;
+	animation-delay: 0.1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-fill-mode: backwards;
+	animation-direction: normal;
+}
+@keyframes orangeMove{
+		0%{ 
+		top: 50%;
+		left: 100%;
+	}
+		100%{ 
+		top: 50%;
+		left: -50%;
+	}
+}
+
+.green-object {
+	position: absolute;
+	background-image: url("../images/green car.png");
+	width: 320px;
+	height: 170px;
+	top: 70%;
+	left: -10%;
+	transform: rotateY(180deg); /*სურათი იყო უკუღმა და შემოვაბრუნე*/
+	animation-name: greenMove;
+	animation-duration: 10s;
+	animation-delay: 0.1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+	animation-direction: normal;
+}
+@keyframes greenMove {
+	0%{ 
+		top: 70%;
+		left: 0%;
+	}
+	100%{ 
+		top: 70%;
+		left: 100%;
+	}
+}
+
