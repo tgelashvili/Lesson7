@@ -39,7 +39,17 @@
 }
 .background img{
 
+.green-object{
+	top: 82%;
+	left: -10%;
+	transform: rotateY(180deg); /*სურათი იყო უკუღმა და შემოვაბრუნე*/
+	transition-property: all;
 }
+.green-object:hover{
+
+}
+
+
 
 .object img{
 	position: absolute;
