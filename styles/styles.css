@@ -73,10 +73,13 @@
 	top: 70%;
 	left: -10%;
 	transform: rotateY(180deg); /*სურათი იყო უკუღმა და შემოვაბრუნე*/
-	transition-property: all;
-}
-.green-object:hover{
-
+	animation-name: greenMove;
+	animation-duration: 10s;
+	animation-delay: 0.1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-fill-mode: forwards;
+	animation-direction: normal;
 }
 
 
