@@ -65,8 +65,12 @@
 	}
 }
 
-.green-object{
-	top: 82%;
+.green-object {
+	position: absolute;
+	background-image: url("../images/green car.png");
+	width: 320px;
+	height: 170px;
+	top: 70%;
 	left: -10%;
 	transform: rotateY(180deg); /*სურათი იყო უკუღმა და შემოვაბრუნე*/
 	transition-property: all;
