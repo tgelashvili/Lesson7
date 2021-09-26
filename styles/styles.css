@@ -37,6 +37,32 @@
 .blue-object:hover{
 
 
+@keyframes blueMove {
+	0%{ 
+		top: 50%;
+		left: 100%;
+	}
+	/*არ დამჭირდა მაგრამ იყოს აქ
+	50%{ 
+		top: 50%;
+		left: 83%;
+	}
+	60%{
+		top: 50%;
+		left: 66%;
+	}
+	80%{
+		top: 50%;
+		left: 49%;
+	}
+	90%{
+		top: 50%;
+		left: 32%;
+	}*/
+	100%{ 
+		top: 50%;
+		left: -50%;
+	}
 }
 
 .green-object{
