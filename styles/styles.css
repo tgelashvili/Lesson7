@@ -21,10 +21,6 @@
 	height: 180px;
 	top: 50%;
 	right: -10%;
-	transition-property: all;
-	transition-delay: 1sec;		/*რამდენ ხანში დაიწყოს*/
-	transition-duration: 10sec;	/*რამდენი ხანი გაგრძელდეს*/
-	transition-timing-function: linear;
 	animation-name: blueMove;
 	animation-duration: 10s;
 	animation-delay: 0.1s;
@@ -33,10 +29,6 @@
 	animation-fill-mode: backwards;
 	animation-direction: normal;
 }
-
-.blue-object:hover{
-
-
 @keyframes blueMove {
 	0%{ 
 		top: 50%;
