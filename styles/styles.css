@@ -1,20 +1,19 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	width: 100%;
 }
-.container{
+.container {
 	max-width: 1950px;
 	width: 100%;
 	margin: 0 auto; /*საიტის ცენტრი რომ ეკავოს*/
 	position: relative;
 }	
-.background{
+.background {
 	margin: 0 auto;
 }
-
-.blue-object{
+.blue-object {
 	position: absolute;
 	background-image: url("../images/blue car.png");
 	width: 320px;
@@ -56,6 +55,31 @@
 		left: -50%;
 	}
 }
+.orange-object{
+	position: absolute;
+	background-image: url("../images/orange car.png");
+	width: 320px;
+	height: 280px;
+	top: 50%;
+	right: -10%;
+	animation-name: orangeMove;
+	animation-duration: 8s;
+	animation-delay: 0.1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-fill-mode: backwards;
+	animation-direction: normal;
+}
+@keyframes orangeMove{
+		0%{ 
+		top: 50%;
+		left: 100%;
+	}
+		100%{ 
+		top: 50%;
+		left: -50%;
+	}
+}
 
 .green-object {
 	position: absolute;
@@ -73,8 +97,6 @@
 	animation-fill-mode: forwards;
 	animation-direction: normal;
 }
-
-
 @keyframes greenMove {
 	0%{ 
 		top: 70%;
@@ -85,3 +107,4 @@
 		left: 100%;
 	}
 }
+
