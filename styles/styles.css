@@ -15,12 +15,23 @@
 }
 
 .blue-object{
-	top: 59%;
+	position: absolute;
+	background-image: url("../images/blue car.png");
+	width: 320px;
+	height: 180px;
+	top: 50%;
 	right: -10%;
 	transition-property: all;
 	transition-delay: 1sec;		/*რამდენ ხანში დაიწყოს*/
 	transition-duration: 10sec;	/*რამდენი ხანი გაგრძელდეს*/
 	transition-timing-function: linear;
+	animation-name: blueMove;
+	animation-duration: 10s;
+	animation-delay: 0.1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-fill-mode: backwards;
+	animation-direction: normal;
 }
 
 .blue-object:hover{
