@@ -15,6 +15,12 @@
 	background-size: cover;*/
 }	
 .background{
+	margin: 0 auto;
+}
+
+.object img{
+	position: absolute;
+	max-width: 260px;
 	width: 100%;
 
 
